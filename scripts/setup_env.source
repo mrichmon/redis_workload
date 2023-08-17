@@ -1,0 +1,4 @@
+export REDIS_HOST=
+export REDIS_PORT=8200
+export REDIS_USER=default
+export REDIS_PASS=''
