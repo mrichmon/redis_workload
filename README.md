@@ -1,9 +1,9 @@
 # redis_workload
 Code to exercise redis for multithreading and multiprocessing.
 
-Executable replays log of mget(key) requests.
+The `redis_workload` executable replays a log of mget(key) requests.
 
-Input datafile should be a CSV file. Each line in the CSV file is interpreted as a single mget call to Redis. Each comma separated
+The input datafile should be a CSV formated file. Each line in the CSV file is interpreted as a single mget call to Redis. Each comma separated
 on the line is used as a separate redis key.
 
 For example, a CSV data file containing:
